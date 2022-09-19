@@ -34,6 +34,5 @@ private:
     ParticleEmitterSettings m_emitProperties;
     sf::Vector2u m_screenSize;
 
-    // need pointer here c++ wont work like this
     std::vector<std::unique_ptr<IParticleUpdater>> m_particleUpdaters;
 };

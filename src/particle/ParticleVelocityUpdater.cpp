@@ -19,8 +19,8 @@ void ParticleVelocityUpdater::update(Particle &p, sf::Vector2f mousePos, float d
         p.position += v;
     }
 
+    // bounce "walls"
     auto futurePos = p.position + p.velocity * deltaTime;
-
     if (futurePos.x > m_screenSize.x || futurePos.x < 0)
         p.velocity = sf::Vector2f(-p.velocity.x, p.velocity.y);
 
