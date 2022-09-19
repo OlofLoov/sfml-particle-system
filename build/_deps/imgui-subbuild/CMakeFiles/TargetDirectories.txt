@@ -1,3 +1,0 @@
-/Users/olofloov/Projects/sfml-particle-system/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate.dir
-/Users/olofloov/Projects/sfml-particle-system/build/_deps/imgui-subbuild/CMakeFiles/edit_cache.dir
-/Users/olofloov/Projects/sfml-particle-system/build/_deps/imgui-subbuild/CMakeFiles/rebuild_cache.dir
